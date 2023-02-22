@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    width: 100%;
 }
 
 body{
@@ -120,7 +121,7 @@ footer{
 
    .text{
     margin: auto;
-    padding-top: 20px;
+    text-align: center;
    }
 
    footer{
@@ -128,9 +129,34 @@ footer{
    }
 
    .card {
-    margin: auto;
     float: none;
-    padding-left: 60px;
+    margin: auto;
    }
+
+   h1{
+    padding-top: 20px;
+    font-size: 40px;
+   }
+   #subtitle{
+    font-size: 20px;
+   }
+
+   .navbar {
+    font-weight: 700;
+    font-size: 20px;
+    padding-right: 29px;
+    color: white;
+}
+    body{
+    background: rgba(123,51,125,1) 
+}
+
+    #articles-tile{
+        text-align: center;
+        margin-left: none;
+        padding: 0;
+    }
+
+
 
 }
