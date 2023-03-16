@@ -52,9 +52,62 @@ a:hover{
 
 
 /* =====================MAIN=======================*/
+.content{
+    color: white;
+    margin-top: 15vh;
+    font-family: "Mulish";
+    margin-left: 10px;
+}
 
+#doctor{
+    font-size: 36px;
+    font-weight: 200;
+    transform: translateY(30px);
+}
 
+#strange{
+    font-size: 7rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
 
+#madness{
+    font-size: 2.6rem;
+    font-style: italic;
+    color: #E62721;
+    transform: translateY(-20px)
+}
 
+article{
+    width: 550px;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
 
+button{
+    background-color: #E62721;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+    font-family: "Mulish";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+button:hover{
+    background-color: #981a16;
+}
 /* =====================MAIN END=======================*/
+
+/* =====================FOOTER=======================*/
+footer{
+    color: white;
+    font-style: italic;
+    margin-top: 25vh;
+    text-align: center;
+}
