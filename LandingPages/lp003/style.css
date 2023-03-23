@@ -13,6 +13,7 @@ body {
     background-position: top right;
     background-color: rgba(0, 0, 0, 0.359);
     background-blend-mode: darken;
+    background-repeat: no-repeat;
 }
 
 
@@ -37,5 +38,11 @@ a:hover{
     font-weight: 900;
     text-shadow: 1px 1px 1px rgb(0, 6, 31);
     transition: all 0.4s;
+}
+
+@media (max-width:768px) {
+    nav{
+        display: none;
+    }
 }
 /* =========================NAVBAR=========================== */
