@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,500;1,300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(img/wp11526106-ai-art-wallpapers.jpg);
+    background-size: cover;
+    background-position: top right;
+    background-color: rgba(0, 0, 0, 0.359);
+    background-blend-mode: darken;
+}
+
+
+/* =========================NAVBAR=========================== */
+ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    color: white;
+    justify-content: flex-start;
+    padding: 30px;
+    background-color: rgba(100, 148, 237, 0.673);
+}
+.navbar {
+    color: white;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+}
+
+a:hover{
+    font-weight: 900;
+    text-shadow: 1px 1px 1px rgb(0, 6, 31);
+    transition: all 0.4s;
+}
+/* =========================NAVBAR=========================== */
