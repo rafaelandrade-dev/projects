@@ -5,27 +5,24 @@
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
 }
-
-body {
-    background-image: url(img/wp11526106-ai-art-wallpapers.jpg);
-    background-size: cover;
-    background-position: top right;
-    background-color: rgba(0, 0, 0, 0.359);
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-}
-
 
 /* =========================NAVBAR=========================== */
+nav{
+    position: fixed;
+    width: 100%;
+}
+
 ul {
     display: flex;
-    gap: 60px;
     list-style: none;
     color: white;
-    justify-content: flex-start;
     padding: 30px;
-    background-color: rgba(100, 148, 237, 0.673);
+    padding-left: 15vw;
+    padding-right: 15vw;
+    justify-content: space-between;
+    background: linear-gradient(rgba(17, 0, 0, 0.827), transparent);
 }
 .navbar {
     color: white;
@@ -36,8 +33,26 @@ ul {
 
 a:hover{
     font-weight: 900;
+    color: brown;
     text-shadow: 1px 1px 1px rgb(0, 6, 31);
-    transition: all 0.4s;
+    transition: color 0.4s;
+}
+
+#nav1{
+    animation: fadeInDown;
+    animation-duration: 2s;
+}
+#nav2{
+    animation: fadeInDown;
+    animation-duration: 4s;
+}
+#nav3{
+    animation: fadeInDown;
+    animation-duration: 5s;
+}
+#nav4{
+    animation: fadeInDown;
+    animation-duration: 6s;
 }
 
 @media (max-width:768px) {
@@ -46,3 +61,124 @@ a:hover{
     }
 }
 /* =========================NAVBAR=========================== */
+
+section{
+    width: 100%;
+    min-height: 100vh;
+}
+
+section:nth-of-type(1){
+    background-image: url(img/background1.png);
+    background-color: rgba(0, 0, 0, 0.359);
+    background-blend-mode: darken;
+    background-position: top right;
+    background-size: cover;
+}
+section:nth-of-type(2){
+    background-image: url(img/background2.png);
+    background-color: rgba(0, 0, 0, 0.447);
+    background-blend-mode: darken;
+    background-position: top right;
+    background-size: cover;
+}
+section:nth-of-type(3){
+    background-image: url(img/background3.png);
+    background-color: rgba(0, 0, 0, 0.359);
+    background-blend-mode: darken;
+    background-position: top right;
+    background-size: cover;
+}
+section:nth-of-type(4){
+    background-image: url(img/background1.png);
+    background-color: rgba(0, 0, 0, 0.359);
+    background-blend-mode: darken;
+    background-position: top right;
+    background-size: cover;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: "Mulish";
+    padding: 35vh 30px 30px 30px;
+    animation: backInLeft; 
+    animation-duration: 4s; 
+}
+.title > p {
+    font-weight: 300;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+
+}
+.title > h1{
+    font-weight: 800;
+    font-size: 6vw;
+}
+
+@media (max-width: 690px) {
+    body{
+        padding: 0px;
+        margin: 0;
+    }
+    .title{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        padding-top: 30vh;
+    }
+    .title > h1{
+        font-size: 4.1rem;
+    }
+}
+
+/* ==============================FACTS============================== */
+.title2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: "Mulish";
+    padding: 30vh 30px 30px 30px;
+    animation: backInLeft; 
+    animation-duration: 4s;
+}
+.title2 > h1{
+    font-weight: 800;
+    font-size: 6vw;
+}
+.article{
+    max-width: 700px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.title2 > p:hover{
+    background-color: gray;
+    transition: all 0.475s;
+}
+@media (max-width: 690px) {
+    body{
+        padding: 0px;
+        margin: 0;
+    }
+    .title2{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        padding-top: 15vh;
+    }
+    .title2 > h1{
+        font-size: 4.1rem;
+    }
+    .article{
+        margin: 5px 20px 5px 20px;
+    }
+}
