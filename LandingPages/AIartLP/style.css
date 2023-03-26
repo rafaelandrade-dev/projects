@@ -214,6 +214,9 @@ section:nth-of-type(4){
     #img-art3 {
         display: none;
     }
+    .art-container{
+        padding-bottom: 60px;
+    }
 }
 /* ==============================ART END============================== */
 
@@ -230,4 +233,11 @@ section:nth-of-type(4){
 .embed-container {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 690px) {
+    iframe {
+        width: 85vw;
+        height: 60vw;
+    }
 }
