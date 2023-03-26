@@ -83,13 +83,13 @@ section:nth-of-type(2){
 }
 section:nth-of-type(3){
     background-image: url(img/background3.png);
-    background-color: rgba(0, 0, 0, 0.359);
+    background-color: rgba(0, 0, 0, 0.645);
     background-blend-mode: darken;
     background-position: top right;
     background-size: cover;
 }
 section:nth-of-type(4){
-    background-image: url(img/background1.png);
+    background-image: url(img/4IrNOr7HFCTjfO5L2vhj_2x_2x_2.4038x.webp);
     background-color: rgba(0, 0, 0, 0.359);
     background-blend-mode: darken;
     background-position: top right;
@@ -161,7 +161,8 @@ section:nth-of-type(4){
     margin-top: 20px;
 }
 .title2 > p:hover{
-    background-color: gray;
+    background-color: transparent;
+    color: white;
     transition: all 0.475s;
 }
 @media (max-width: 690px) {
@@ -182,3 +183,39 @@ section:nth-of-type(4){
         margin: 5px 20px 5px 20px;
     }
 }
+/* ==============================FACTS END============================== */
+
+
+/* ==============================ART============================== */
+#art > div > h1 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-family: "Mulish";
+    padding: 10vh 30px 30px 30px;
+    font-size: 3.9rem;
+}
+
+.art-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    gap: 20px;
+}
+
+.img-art:hover{
+    transform: translateY(-20px);
+    transition: all 0.600s;
+    box-shadow: 4px 5px 15px rgb(56, 0, 120);
+}
+
+@media (max-width: 690px) {
+    #img-art3 {
+        display: none;
+    }
+}
+/* ==============================ART END============================== */
+
+
+/* ==============================MORE============================== */
