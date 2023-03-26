@@ -219,3 +219,15 @@ section:nth-of-type(4){
 
 
 /* ==============================MORE============================== */
+#more > div > h1 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-family: "Mulish";
+    padding: 20vh 30px 30px 30px;
+    font-size: 3.9rem;
+}
+.embed-container {
+    display: flex;
+    justify-content: center;
+}
