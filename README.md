@@ -1,5 +1,5 @@
 # projects
- Projetos para treinar
+Some projects that i made as i was 15 and learning how to program, and starting my coding journey
  
  View the projects live </br>
  <li>https://rafaelandrade-dev.github.io/projects/LandingPages/DoctorStrangeLP</li>
